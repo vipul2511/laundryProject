@@ -27,7 +27,7 @@ class App extends Component{
 <Row>
   <Col></Col>
 
-  <Col className="youtube_video">
+  <Col className="youTUBE_video">
     <YouTube
         videoId="sEm6U83v7SQ"
         opts={opts}
