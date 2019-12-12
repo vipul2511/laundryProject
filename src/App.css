@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background{
+  width:100% ;
+  height:100vh ;
+  opacity: 0.9;
+  }
+  .second_img{
+    margin-top: 5px;
+  }
+
+  .item-1,
+  .item-2,
+  .item-3{ 
+    position: absolute;
+    display: block;
+    top: 3em;
+    width: 60%;
+    font-size: 3.5em;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    color:	rgb(17, 57, 236);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+   font-family: 'Times New Roman', Times, serif;
+  }
+  
+    .item-1{
+    animation-name: anim-1;
+  }
+   
+  .item-2{
+    animation-name: anim-2;
+  }
+  
+  .item-3{
+    animation-name: anim-3;
+  }
+  @keyframes anim-1 {
+    0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 20%; opacity: 1; }
+    33.33%, 100% { left: 40%; opacity: 0; }
+  }
+  
+  @keyframes anim-2 {
+    0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 20%; opacity: 1; }
+    66.66%, 100% { left: 40%; opacity: 0; }
+  }
+  
+ @keyframes anim-3 {
+    0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 85.62% { left: 20%; opacity: 1; }
+   100% { left: 40%; opacity: 0; }
+  } 
+  .youtube_video{
+
+  }
